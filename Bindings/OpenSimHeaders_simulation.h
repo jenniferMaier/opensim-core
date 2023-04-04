@@ -120,6 +120,7 @@
 #include <OpenSim/Simulation/SimbodyEngine/ConstantDistanceConstraint.h>
 #include <OpenSim/Simulation/SimbodyEngine/CoordinateCouplerConstraint.h>
 #include <OpenSim/Simulation/SimbodyEngine/PointOnLineConstraint.h>
+#include <OpenSim/Simulation/SimbodyEngine/RodConstraint.h>
 
 #include <OpenSim/Simulation/Model/Actuator.h>
 #include <OpenSim/Simulation/Model/PathActuator.h>

@@ -101,6 +101,7 @@ namespace OpenSim {
 }
 %include <OpenSim/Simulation/SimbodyEngine/CoordinateCouplerConstraint.h>
 %include <OpenSim/Simulation/SimbodyEngine/PointOnLineConstraint.h>
+%include <OpenSim/Simulation/SimbodyEngine/RodConstraint.h>
 
 %include <OpenSim/Simulation/Control/Controller.h>
 %template(SetControllers) OpenSim::Set<OpenSim::Controller, OpenSim::ModelComponent>;

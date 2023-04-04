@@ -110,6 +110,7 @@
 #include "SimbodyEngine/CoordinateCouplerConstraint.h"
 #include "SimbodyEngine/PointOnLineConstraint.h"
 #include "SimbodyEngine/RollingOnSurfaceConstraint.h"
+#include "SimbodyEngine/RodConstraint.h"
 
 #include "SimbodyEngine/EllipsoidJoint.h"
 #include "SimbodyEngine/BallJoint.h"
@@ -235,6 +236,7 @@ OSIMSIMULATION_API void RegisterTypes_osimSimulation()
     Object::registerType(CoordinateCouplerConstraint());
     Object::registerType(PointOnLineConstraint());
     Object::registerType(RollingOnSurfaceConstraint());
+    Object::registerType(RodConstraint());
 
     Object::registerType( ContactGeometrySet() );
     Object::registerType( ContactHalfSpace() );

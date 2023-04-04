@@ -99,6 +99,7 @@
 #include "SimbodyEngine/ConstantDistanceConstraint.h"
 #include "SimbodyEngine/CoordinateCouplerConstraint.h"
 #include "SimbodyEngine/PointOnLineConstraint.h"
+#include "SimbodyEngine/RodConstraint.h"
 #include "SimbodyEngine/EllipsoidJoint.h"
 #include "SimbodyEngine/BallJoint.h"
 #include "SimbodyEngine/PinJoint.h"
